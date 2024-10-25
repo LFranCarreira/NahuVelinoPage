@@ -28,7 +28,7 @@ export default function Videos() {
       ref={ref}
       className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'
     >
-      <SectionHeading>My Videos</SectionHeading>
+      <SectionHeading>Videos</SectionHeading>
       <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
         <motion.li></motion.li>
       </ul>

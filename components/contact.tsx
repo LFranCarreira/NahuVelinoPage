@@ -12,11 +12,11 @@ const CalendlyWidget = dynamic(() => import('./calendlyWidget'), {
   ssr: false,
 });
 export default function Contact() {
-  const { ref } = useSectionInView('Contact');
+  const { ref } = useSectionInView('Contacto');
 
   return (
     <motion.section
-      id='contact'
+      id='contacto'
       ref={ref}
       className='mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'
       initial={{

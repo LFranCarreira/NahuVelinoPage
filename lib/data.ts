@@ -1,11 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaChartLine, FaDollarSign, FaReact } from 'react-icons/fa';
+import { FaChartLine, FaDollarSign } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import hypereventImg from '@/public/hyperevent.png';
-import admindashboardsImg from '@/public/admindashboard.png';
-import pokeversehubImg from '@/public/pokeversehub.png';
-import calculatorImg from '@/public/calculator.png';
 
 export const links = [
   {
@@ -13,25 +9,20 @@ export const links = [
     hash: '#home',
   },
   {
-    name: 'About',
-    hash: '#about',
-  },
-
-  {
     name: 'Videos',
     hash: '#videos',
   },
   {
-    name: 'Experience',
-    hash: '#experience',
+    name: 'Testimonios',
+    hash: '#testimonios',
   },
   {
-    name: 'Contact',
-    hash: '#contact',
+    name: 'Contacto',
+    hash: '#contacto',
   },
 ] as const;
 
-export const experiencesData = [
+export const testimoniosData = [
   {
     title: 'Bachelor of Economics and Finance',
     location: 'Buenos Aires, ARG',

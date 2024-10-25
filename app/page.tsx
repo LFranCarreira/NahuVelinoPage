@@ -1,6 +1,6 @@
 import About from '@/components/about';
 import Contact from '@/components/contact';
-import Experience from '@/components/experience';
+import Testimonios from '@/components/testimonios';
 import Intro from '@/components/intro';
 import SectionDivider from '@/components/section-divider';
 import Videos from '@/components/videos';
@@ -12,7 +12,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Videos />
-      <Experience />
+      <Testimonios />
       <Contact />
     </main>
   );
